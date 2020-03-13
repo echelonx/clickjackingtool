@@ -1,0 +1,36 @@
+
+<html>
+    <head>
+	
+	
+        <title>Clickjacking Tool | Vulnerability finder</title>
+		 <meta charset="utf-8">
+		 <meta name="description" content="Test and learn Clickjacking. Make clickjacking PoC, take screenshot and share link. You can test HTTPS, HTTP, intranet and internal sites." />
+
+		  <!-- fb & Whatsapp -->
+
+		<!-- Site Name, Title, and Description to be displayed -->
+		<meta property="og:site_name" content="Clickjacker">
+		<meta property="og:title" content="Clickjacking Tool | Vulnerability finder">
+		<meta property="og:description" content="Test and learn Clickjacking. Make clickjacking PoC, take screenshot and share link. You can test HTTPS, HTTP, intranet and internal sites.">
+		  <meta name="viewport" content="width=device-width, initial-scale=1">
+		  
+		<link rel="icon" href="favicon.ico" type="image/x-icon"/>
+		<link rel="shortcut icon" href="favicon.ico"/>
+		
+        <script type="text/javascript" src="clickjacking.js"></script>
+    </head>
+    <body>
+	<center>
+        <h1><strong> A Basic tool to find clickjacking and framing vulnerability by <a href="https://twitter.com/@blvck3ch3l0n"> @blvck3ch3l0n </a></strong></h1></center>
+        
+		<p><strong>Enter the URL to test:</strong></p>
+		<p>(Replace 'http://example.com' with your target site)</p>
+		<p>(NOTE: It may sometimes take more than 2 minutes to pull a web page...)</p>
+		<p>If a web page is showing, then the website is vulnerable.</p>
+        <input id="url" type="text" value="http://example.com"></input>
+        <button id="submit-test">Test!</button>
+        <br />
+        <iframe src="about:blank" id="iframe" width="800px" height="600px"></iframe>
+    </body>
+</html>
